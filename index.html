@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="reset.css" />
+    <!-- Embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- logo -->
+    <section class="logo">
+      <div class="container">
+        <img
+          src="./Meta logo.3d98621a4b611ba4cfa4ef5e0e3e524d946cc855.png"
+          alt="meta logo"
+          class="logo-img"
+        />
+      </div>
+    </section>
+    <!-- title -->
+    <section class="sign-up__title">
+      <div class="container">
+        <h1 class="sign-up__heading">Get started on Instagram</h1>
+        <p class="sign-up__desc">
+          Sign up to see photos and videos from your friends.
+        </p>
+      </div>
+    </section>
+    <!-- form -->
+    <form class="sign-up__form">
+      <div class="container">
+        <!-- Mobile number or email -->
+        <section class="number__email">
+          <label>
+            <h2 class="form__heading">Mobile number or email</h2>
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Mobile number or email"
+            />
+          </label>
+          <p class="noti">
+            You may receive notifications from us.
+            <a href="#">Learn why we ask for your contact information</a>
+          </p>
+        </section>
+
+        <!-- Password -->
+        <section class="password">
+          <label>
+            <h2 class="form__heading">Password</h2>
+
+            <input
+              type="password"
+              class="form__input password__input"
+              placeholder="Password"
+            />
+            <img class="password__eye" src="./eye-solid.svg" alt="" />
+          </label>
+        </section>
+
+        <!-- Birthday -->
+        <section class="birthday">
+          <div class="birthday__div">
+            <h2 class="form__heading">Birthday</h2>
+            <img src="./circle-question-regular.svg" alt="" />
+          </div>
+          <section class="birthday__label">
+            <label
+              ><p class="b__p">Month</p>
+              <select name="" id="month">
+                <option value=""></option></select
+            ></label>
+
+            <label
+              ><p class="b__p">Day</p>
+              <select name="" id="day">
+                <option value=""></option></select
+            ></label>
+
+            <label
+              ><p class="b__p">Year</p>
+              <select name="" id="year">
+                <option value=""></option></select
+            ></label>
+          </section>
+        </section>
+        <!-- Name -->
+        <section class="name">
+          <label>
+            <h2 class="form__heading">Name</h2>
+            <input
+              type="text"
+              class="fullname form__input"
+              placeholder="Full name"
+          /></label>
+        </section>
+
+        <!-- Username -->
+        <section class="username">
+          <label>
+            <h2 class="form__heading">Username</h2>
+            <input
+              type="text"
+              class="username form__input"
+              placeholder="Username"
+          /></label>
+        </section>
+
+        <section class="form__desc">
+          <p>
+            People who use our service may have uploaded your contact
+            information to Instagram. <a href="#" class="">Learn more</a>.
+          </p>
+          <p>
+            By tapping Submit, you agree to create an account and to Instagram's
+            <a href="#">Terms</a>. Learn how we collect, use and share your data
+            in our <a href="#">Privacy Policy</a> and how we use cookies and
+            similar technology in our <a href="#">Cookies Policy</a>.
+          </p>
+          <p>
+            The <a href="#">Privacy Policy</a> describes the ways we can use the
+            information we collect when you create an account. For example, we
+            use this information to provide, personalize and improve our
+            products, including ads.
+          </p>
+        </section>
+        <!-- Button -->
+        <section class="form__btn">
+          <a href="#" class="btn submit__btn">Submit</a>
+          <a href="#" class="btn already__btn">I already have an account</a>
+        </section>
+      </div>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
